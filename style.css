@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #282626;
+}
+.navbar{
+    display: flex;
+    background-color: #353131;
+    height: 56px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+.brand-logo{
+    height: 40px;
+    width: 170px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logo-img{
+    width: 100%;
+    height: 40px;
+}
+.manage-projects{
+    flex: 1;
+    color: aliceblue;
+    padding-left: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-button{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.add-new-btn{
+    padding: 8px 10px;
+    border-radius: 25px;
+    color: white;
+    background-color: #6630FF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+#dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 5px;
+    height: 5px;
+    margin: 5px;
+    background: white;
+    border-radius: 50%;
+  }
+  .side-bar{
+    background-color: #353131;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+  }
+.all-boards{
+    color: rgb(187, 186, 186);
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.boards{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.features{
+    margin-top: 15px;
+    display: flex;
+    color: rgb(187, 186, 186);
+    text-align: center;
+    padding: 10px 20px 10px 15px;
+}
+.features h4{
+    padding-left: 10px;
+}
+.features:hover{
+    color: white;
+    background-color: #6630FF;
+    border-radius: 20px;
+}
+.features-new{
+    margin-top: 15px;
+    color: #6630FF;
+    display: flex;
+    text-align: center;
+    padding: 10px 20px 10px 15px;
+}
+.features-new h4{
+    padding-left: 10px;
+}
+.features-new:hover{
+    background-color: #6630FF;
+    color: white;
+    border-radius: 20px;
+}
+.copyrights{
+    text-align: center;
+    margin-top: 180px;
+}
+.top-body{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 220px;
+    justify-content: space-around;
+}
+.todo{
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.todo-head{
+    margin-bottom: 30px;
+    display: flex;
+}
+.big-dot {
+    width: 15px;
+    height: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #6630FF;;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+.fb-modal{
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(125, 125, 125);
+}
+.fb-modal p{
+    color: rgb(187, 186, 186);
+}
